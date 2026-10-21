@@ -1,0 +1,31 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Testing & Linting
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Scratch and Temporary
+scratch/
+*.tmp
+*.log
+
+# Large Datasets (Preserve data/sample_reviews.csv)
+*.tar.gz
+*.zip
+IMDB Dataset.csv
